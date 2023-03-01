@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+body {
+  margin: 0;
+  color:#5e5b5b
+}
+
+.side button {
+  color: #5e5b5b;
+  background-color: #f1f1f1;
+}
+.main button {
+  color: #5e5b5b;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #338174;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 35%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.side p {
+  font-weight: bolder;
+}
+.imagen{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.main {   
+  flex: 65%;
+  background-color: white;
+  padding: 20px;
+}
+.main h3 {
+  color: #338174;
+}
+
+button {
+  background-color:white;
+  border:0px;
+}
+
+button:hover {
+  text-decoration:underline;
+  }
+
+.progress {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #507ba0;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: #56a367;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #433a74;
+}
+
+.actualmente {
+  background-color: #338174;
+  color: white;
+}
